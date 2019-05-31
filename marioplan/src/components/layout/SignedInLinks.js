@@ -1,5 +1,4 @@
 import React from 'react'
-import { wrap } from 'module';
 import { NavLink } from 'react-router-dom'
 
 const SignedInLinks = () => {
