@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class CreateProject extends Component {
+class CreateProject extends Component {
   state = {
     title: '',
     content: ''
@@ -35,3 +35,5 @@ export default class CreateProject extends Component {
     )
   }
 }
+
+export default CreateProject

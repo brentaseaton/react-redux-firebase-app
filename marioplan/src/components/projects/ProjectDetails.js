@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ProjectDetails(props) {
+function ProjectDetails(props) {
   const id = props.match.params.id 
 
   return (
@@ -18,3 +18,5 @@ export default function ProjectDetails(props) {
     </div>
   )
 }
+
+export default ProjectDetails

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class SignIn extends Component {
+class SignIn extends Component {
   state = {
     email: '',
     password: ''
@@ -35,3 +35,5 @@ export default class SignIn extends Component {
     )
   }
 }
+
+export default SignIn
